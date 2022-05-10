@@ -402,7 +402,9 @@ img {
 
 .hero {
   display: flex;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4)), 
+   url(../images/background.jpg);
   background-color: #2f303a;
   background-size: 1600px 600px;
   background-repeat: no-repeat;
